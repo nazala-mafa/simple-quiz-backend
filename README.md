@@ -1,5 +1,5 @@
 # Simple Quiz Backend
-Aplikasi untuk membuat, memanajamen quiz, dan menampilkan nilai
+Aplikasi untuk membuat, memanajamen quiz, dan menampilkan nilai.
 
 menggunakan ReactJs sebagai frontend da ci4 sebagai backend
 
