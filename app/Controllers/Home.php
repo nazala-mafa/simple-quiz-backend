@@ -15,21 +15,6 @@ class Home extends ResourceController
 
     public function index()
     {
-        // $answerModel = new User_answers_model();
-        // dd( $answerModel->calculateScore(3, 1) );
-    }
-
-    function coba2()
-    {
-        $key = env('jwt_key');
-        $payload = [
-            'aku'   => "nazala"
-        ];
-
-        $jwt = JWT::encode($payload, $key, 'HS256');
-        echo $jwt;
-        echo "<br>";
-        $decoded = JWT::decode($jwt, new Key($key, 'HS256'));
-        print_r($decoded);
+        print "Simple Quiz";
     }
 }
